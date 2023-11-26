@@ -1,0 +1,19 @@
+.menuItem{
+  width: 100%;
+  padding: .8rem .8rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover{
+    background-color: rgb(230, 230, 230);
+  }
+  &:first-child{
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+  }
+  &:last-child{
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+  }
+}
